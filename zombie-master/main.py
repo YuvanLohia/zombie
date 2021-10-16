@@ -169,7 +169,7 @@ def back():
 
 
 def how_to():
-    webbrowser.open(r"C:\Users\BBL\Documents\.python\zombie-master\how_to_play.html")
+    webbrowser.open(os.join(os.getcwd(),"how_to_play.html"))
 def shopper():
     global current_type,once
     for jk in entity_list:
